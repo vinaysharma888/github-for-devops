@@ -10,3 +10,13 @@ git commit -m "added testing files"
 git status
 rm testing.py
 git restore testing.py
+git remote -v
+git push origin master
+git init
+git status
+git add testing.py
+git commit -m "add this file"
+git push origin master
+git branch
+git push origin main
+ls
